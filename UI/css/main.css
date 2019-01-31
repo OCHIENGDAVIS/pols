@@ -149,7 +149,7 @@ body{
 }
 .bt:hover{
     cursor: pointer;
-    background-color: aqua;
+    background-color: #00a8ff;
 }
 .account-text{
     font-size: 25px;

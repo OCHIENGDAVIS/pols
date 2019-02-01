@@ -1,3 +1,4 @@
+
  @media screen and (min-width:1104px){
 .nav-row{
     display: flex;
@@ -19,19 +20,19 @@
 }
 .common-links ul li{
     display: inline;
-    margin: 20px;
+    margin: 15px;
     padding-top: 30px;
 
 }
 .common-links ul li a{
     color: #FFF;
-    margin: 30px;
+    margin: 20px;
     font-size: 20px;
     text-decoration: none
 
 }
 .login-links ul{
-    margin-left: 20px;
+    margin-left: 40px;
 }
 .login-links ul li{
     display: inline-block;
@@ -177,6 +178,30 @@
 .muscot{
     color: #555;
     padding-bottom: 20px;
+}
+#avatar{
+    border-radius: 100px;
+    float :left;
+}
+#view-party{
+    background-color: #eeeeee;
+    width: 400px;
+    margin-bottom: 30px;
+}
+#description{
+    margin-top: 100px;
+    margin-left: -200px;
+}
+.bold{
+    color: #555;
+}
+.h-1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.party-hr{
+    margin-right: 120px;
+    margin-left: 120px;
 }
 
 }
@@ -375,6 +400,34 @@ common-links ul li{
     color: #555;
     padding-bottom: 20px;
 }
+.muscot{
+    color: #555;
+    padding-bottom: 20px;
+}
+#avatar{
+    border-radius: 100px;
+    float :left;
+}
+#view-party{
+    background-color: #eeeeee;
+    width: 400px;
+    margin-bottom: 30px;
+}
+#description{
+    margin-top: 100px;
+    margin-left: -200px;
+}
+.bold{
+    color: #555;
+}
+.h-1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.party-hr{
+    margin-right: 120px;
+    margin-left: 120px;
+}
 }
 
 
@@ -555,5 +608,33 @@ common-links ul li{
 }
 .description{
     display: block;
+}
+.muscot{
+    color: #555;
+    padding-bottom: 20px;
+}
+#avatar{
+    border-radius: 100px;
+    float :left;
+}
+#view-party{
+    background-color: #eeeeee;
+    width: 400px;
+    margin-bottom: 30px;
+}
+#description{
+    margin-top: 100px;
+    margin-left: -200px;
+}
+.bold{
+    color: #555;
+}
+.h-1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.party-hr{
+    margin-right: 120px;
+    margin-left: 120px;
 }
 }

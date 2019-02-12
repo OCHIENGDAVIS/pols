@@ -10,79 +10,58 @@
 </head>
 
 <body>
-    <!-- navigation -->
-    <div class="nav-row">
-        <div class="logo">
-            <p class="logo-text">Politico</p>
+    <div id="body-container">
+        <!-- navigation -->
+        <div class="topnav" id="header">
+            <a class="" href="index.html">Politico</a>
+            <div class="topnav-right">
+                <a href="index.html">Register</a>
+                <a href="login.html">Login</a>
+                <a href="create-party.html">Admin</a>
+            </div>
         </div>
-        <div class="common-links">
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <div class="login-links">
-            <ul>
-                <li>
-                    <a href="login.html">Login</a>
-                </li>
-                <li>
-                    <a href="signup.html">Register</a>
-                </li>
-                <a href="create-party.html" class="admin">admin</a>
-            </ul>
-        </div>
+        <div class="main" id="body">
+            <div class="account">
+                <h1 class="account-text">Create An Account</h1>
+                <div class="form-div">
 
-    </div>
-    <!-- end of navigation -->
-    <div class="main">
-        <div class="account">
-            <h1 class="account-text">Create An Account</h1>
-            <div class="form-div">
+                    <form action="user-vote.html">
 
-                <form action="user-vote.html">
-
-                    <input type="text" class="input" placeholder="Username">
+                        <input type="text" class="input" placeholder="Username">
 
 
-                    <input type="email" class="input" placeholder="Email">
+                        <input type="email" class="input" placeholder="Email">
 
 
-                    <input type="password" class="input" placeholder="Password">
+                        <input type="password" class="input" placeholder="Password">
 
-                    <p>
-                        <input type="submit" value="Register" class="bt">
+                        <p>
+                            <input type="submit" value="Register" class="bt">
+                        </p>
+                        <p class="login-text">Have an account? <a href="login.html">Login</a></p>
+                    </form>
+                </div>
+            </div>
+            <div class="description">
+                <div>
+                    <p class="vote-text">Voting Made Easier</p>
+                    <p class="desc-text">
+                        Creating an account on Politico allows you to have the comfort of being able to vote for any
+                        electoral
+                        position from the comfort of your computer or phone. Whether you are a politician and you would lke
+                        to
+                        express your interest at a particular political office, Politico has you covered. <strong>Register</strong>
+                        bellow
+                        to unlock the powers of Politico
                     </p>
-                    <p class="login-text">Have an account? <a href="login.html">Login</a></p>
-                </form>
+                    <div class="img-div"><img src="img/ballot.png" alt="ballot box"></div>
+                </div>
             </div>
         </div>
-        <div class="description">
-            <div>
-                <p class="vote-text">Voting Made Easier</p>
-                <p class="desc-text">
-                    Creating an account on Politico allows you to have the comfort of being able to vote for any
-                    electoral
-                    position from the comfort of your computer or phone. Whether you are a politician and you would lke
-                    to
-                    express your interest at a particular political office, Politico has you covered. <strong>Register</strong>
-                    bellow
-                    to unlock the powers of Politico
-                </p>
-                <div class="img-div"><img src="img/ballot.png" alt="ballot box"></div>
-            </div>
+        <div class="footer" id="footer">
+            <hr class="hr">
+            <p class="footer-text">&copy; Politico Team 2019 | all rights reserved</p>
         </div>
-    </div>
-    <div class="footer">
-        <hr class="hr">
-        <p class="footer-text">&copy; Politico Team 2019 | all rights reserved</p>
     </div>
 
 </body>
